@@ -63,9 +63,7 @@ for (i=0; i <= pizzas.length; i++){
     if(pizzas[i].id % 2 != 0){
       console.log("Las pizzas con id impar son: ", pizzas[i].nombre)
     }
-    else{
-  console.log ("No hay pizzas con id impar")
-} 
+
   
 }
 console.log("B");
