@@ -56,35 +56,35 @@ const pizzas = [
 
 
 
-
+console.log("A");
 // a)  Las pizzas que tengan un id impar.
 
-// for (i=0; i <= pizzas.length; i++){
-//     if(pizzas[i].id % 2 != 0){
-//       console.log("Las pizzas con id impar son: ", pizzas[i].nombre)
-//     }
-//     else{
-//   console.log ("No hay pizzas con id impar")
-// } 
+for (i=0; i <= pizzas.length; i++){
+    if(pizzas[i].id % 2 != 0){
+      console.log("Las pizzas con id impar son: ", pizzas[i].nombre)
+    }
+    else{
+  console.log ("No hay pizzas con id impar")
+} 
   
-// }
-
+}
+console.log("B");
 // b) Responder: ¿Hay alguna pizza que valga menos de $600?
-// for (i=0; i <= pizzas.length; i++){
-//   if(pizzas[i].precio < 600){
-//     console.log("La ", pizzas[i].nombre , "vale: $",pizzas[i].precio);
-//   }
+for (i=0; i <= pizzas.length; i++){
+  if(pizzas[i].precio < 600){
+    console.log("La ", pizzas[i].nombre , "vale: $",pizzas[i].precio);
+  }
   
 
-// }
-
+}
+console.log("C");
 // c) El nombre de cada pizza con su respectivo precio.
 
-// for (i=0; i <= pizzas.length; i++){
-//       console.log( pizzas[i].nombre,"--" , "Precio: $",pizzas[i].precio);
-//     }
+for (i=0; i <= pizzas.length; i++){
+      console.log( pizzas[i].nombre,"--" , "Precio: $",pizzas[i].precio);
+    }
 
-
+console.log("D");
 
 // d) Todos los ingredientes de cada pizza (En cada iteración imprimir los ingredientes de la pizza que se esta recorriendo). Ayuda: van a tener
 //  que realizar dos recorridos, ya que cada pizza del array de pizzas tiene una propiedad "ingredientes" cuyo valor es un array con ingredientes
